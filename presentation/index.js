@@ -187,8 +187,12 @@ export default class Presentation extends React.Component {
             <List style={fontStyle}>
               <Appear><ListItem style={fontStyle}>Where did the stolen coins go? </ListItem></Appear>
               <Appear><ListItem style={fontStyle}>Cashing the coins in?</ListItem></Appear>
+              <Appear>
               <ListItem>Trade coins into Monero / Dash</ListItem>
+              </Appear>
+              <Appear>
               <ListItem>Convert to cash at exchanges outside of Japan</ListItem>
+              </Appear>
             </List>
           </Slide>
 
@@ -225,7 +229,7 @@ export default class Presentation extends React.Component {
               gitHub
             </Heading>
             <Text lineHeight={2} style={fontStyle}>
-              https://github.com/F1nalFortune/Grid_Security_Spec
+              https://github.com/F1nalFortune/coinCheck_Spec
             </Text>
           </Slide>
         </Deck>
