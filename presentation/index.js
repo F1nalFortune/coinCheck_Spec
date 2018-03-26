@@ -103,11 +103,19 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
+          <Slide transition={["zoom", "slide"]} bgImage={images.digital}>
+          </Slide>
+
           <Slide transition={["zoom", "slide"]} bgColor="white">
             <Heading size={1} Fit cap lineHeight={1} style={title}>
-              Introduction
+              Coincheck
             </Heading>
-            <Image src={images.digital}></Image>
+            <List style={fontStyle}>
+                CoinCheck is a digital currency exchange.<br/><br/>
+                Operates exchanges such as BTC/ETC coins and other fiat currencies in Japan.<br/><br/>
+                January 26th, 2018, over 520 million XEM coins were stolen from Coincheck exchange.<br/><br/>
+                260,000 users affected.
+            </List>
           </Slide>
 
           <Slide transition={["zoom", "slide"]}>
@@ -115,10 +123,9 @@ export default class Presentation extends React.Component {
                 Attack
             </Heading>
             <List style={fontStyle}>
-                CoinCheck's private key compromised<br/><br/>
-                NEM coins were moved to 11 different accounts<br/><br/>
-                Intrusion Detection<br/><br/>
-                Considered largest crypto heist
+                CoinCheck's private key compromised.<br/><br/>
+                NEM coins were moved to 11 different accounts.<br/><br/>
+                Considered largest crypto heist.
             </List>
           </Slide>
 
@@ -144,11 +151,11 @@ export default class Presentation extends React.Component {
               How they got Access
             </Heading>
             <List style={fontStyle}>
-              Infected with Malware<br/>
-              Coins were stored in a HOT wallet<br/>
-              System hacked via employee email<br/>
-              Private key stolen<br/>
-              Suspected phishing email
+              Coins were stored in a HOT wallet.<br/><br/>
+              System hacked via employee email.<br/><br/>
+              Private key stolen.<br/><br/>
+              Suspected phishing email.<br/><br/>
+              Infected with Malware.
             </List>
           </Slide>
 
@@ -158,7 +165,10 @@ export default class Presentation extends React.Component {
             </Heading>
             <List style={fontStyle}>
               Held press conference to provide details of what has happened and what's happening next.<br/><br/>
-              They hope to return 90% of all funds lost.<br />
+              They hope to return 90% of all funds lost.<br /><br/>
+              Halted new registrations on their website.<br/><br/>
+              Halted trading of BTC and NEM.<br/><br/>
+              Dropped Monero / Dash / ZCash.
             </List>
           </Slide>
 
@@ -170,10 +180,10 @@ export default class Presentation extends React.Component {
               Remediation
             </Heading>
             <List style={fontStyle}>
-              Publicly announced repayment to customers after first week of March.<br/>
-              compensation formula = 88.549 yen * number of NEM you lost.<br/>
-              Hard Fork<br/>
-              They should have used NEM's multi-signature contract
+              Paid back $423 million back to investors.  <br/><br/>
+              Compensation formula = 88.549 yen * number of NEM you lost.<br/><br/>
+              Hard Fork.<br/><br/>
+              They should have used NEM's multi-signature contract.
             </List>
           </Slide>
 
@@ -200,7 +210,7 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide transition={["zoom", "slide"]} bgColor="primary">
-            <Heading size={1} Fit cap lineHeight={1.5} textColor="secondary">
+            <Heading size={1} Fit cap lineHeight={1.5} style={title}>
               Sources
             </Heading>
             <List style={sources}>
@@ -219,7 +229,8 @@ export default class Presentation extends React.Component {
               https://medium.com/nemofficial/coincheck-hack-interview-with-nem-foundation-vp-jeff-mcdonald-alex-tinsman-from-inside-nem-8d678babb19a<br/>
               http://fortune.com/2018/01/31/coincheck-hack-how/<br/>
               http://fortune.com/2018/01/29/coincheck-japan-nem-hack/<br/>
-              https://btcmanager.com/coincheck-refunding-investors-lost-nem-xem-cyberheist/
+              https://btcmanager.com/coincheck-refunding-investors-lost-nem-xem-cyberheist/<br/>
+              https://www.ft.com/content/6a761a60-2694-11e8-b27e-cc62a39d57a0
             </List>
           </Slide>
 
