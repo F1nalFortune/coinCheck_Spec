@@ -55,7 +55,7 @@ const theme = createTheme({
 });
 
 var tag = {
-  fontFamily: "Fredericka the Great, 'cursive'",
+  fontFamily: "Raleway, 'sans-serif'",
   marginTop: '519px',
   marginLeft: '670px',
   color: 'black',
@@ -168,7 +168,7 @@ export default class Presentation extends React.Component {
               They hope to return 90% of all funds lost.<br /><br/>
               Halted new registrations on their website.<br/><br/>
               Halted trading of BTC and NEM.<br/><br/>
-              Dropped Monero / Dash / ZCash.
+              Suspended trading Monero / Dash / ZCash.
             </List>
           </Slide>
 
@@ -230,7 +230,8 @@ export default class Presentation extends React.Component {
               http://fortune.com/2018/01/31/coincheck-hack-how/<br/>
               http://fortune.com/2018/01/29/coincheck-japan-nem-hack/<br/>
               https://btcmanager.com/coincheck-refunding-investors-lost-nem-xem-cyberheist/<br/>
-              https://www.ft.com/content/6a761a60-2694-11e8-b27e-cc62a39d57a0
+              https://www.ft.com/content/6a761a60-2694-11e8-b27e-cc62a39d57a0<br/>
+              https://news.bitcoin.com/tumbling-bitcoins-guide-rinse-cycle/
             </List>
           </Slide>
 
